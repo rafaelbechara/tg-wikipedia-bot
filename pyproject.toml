@@ -1,0 +1,10 @@
+[project]
+name = "wikiposer"
+version = "0.1.0"
+description = "Telegram bot that returns the two first paragraphs of a wikipedia article about a given topic by the user"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "lxml>=6.0.0",
+    "requests>=2.32.4",
+]
