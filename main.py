@@ -11,7 +11,7 @@ TELEGRAM_BOT_TOKEN = os.getenv('TELEGRAM_BOT_TOKEN')
 
 def wikiscrap(user_message: str) -> str:
 
-    formatted_request = user_message.title().replace(' ', '_')
+    formatted_request = user_message.lower().replace(' ', '_')
     url = 'https://en.wikipedia.org/wiki/' + formatted_request
 
     try:
