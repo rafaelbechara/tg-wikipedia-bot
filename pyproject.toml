@@ -5,6 +5,8 @@ description = "Telegram bot that returns the two first paragraphs of a wikipedia
 readme = "README.md"
 requires-python = ">=3.13"
 dependencies = [
+    "dotenv>=0.9.9",
     "lxml>=6.0.0",
+    "python-telegram-bot>=22.2",
     "requests>=2.32.4",
 ]
